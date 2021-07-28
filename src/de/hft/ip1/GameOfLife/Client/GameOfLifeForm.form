@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="de.hft.ip1.GameOfLife.Client.GameOfLifeForm">
+  <grid id="27dc6" binding="pnl_Main" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="21" width="412" height="479"/>
+    </constraints>
+    <properties>
+      <name value="panel1"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cd7da" class="javax.swing.JMenuBar" binding="menuBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <inheritsPopupMenu value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="62269" class="javax.swing.JMenu" binding="datei" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Datei"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6bb0e" class="javax.swing.JMenuItem" binding="mit_Teilnehmen">
+                <constraints/>
+                <properties>
+                  <text value="Teilnehmen"/>
+                </properties>
+              </component>
+              <component id="60357" class="javax.swing.JMenuItem" binding="mit_Verlassen">
+                <constraints/>
+                <properties>
+                  <text value="Verlassen"/>
+                </properties>
+              </component>
+              <component id="da658" class="javax.swing.JMenuItem">
+                <constraints/>
+                <properties>
+                  <text value="-------------"/>
+                </properties>
+              </component>
+              <component id="4fec5" class="javax.swing.JMenuItem" binding="mit_Neu">
+                <constraints/>
+                <properties>
+                  <text value="Neu"/>
+                </properties>
+              </component>
+              <component id="21674" class="javax.swing.JMenuItem" binding="mit_Oeffnen">
+                <constraints/>
+                <properties>
+                  <text value="Öffnen"/>
+                </properties>
+              </component>
+              <component id="411b5" class="javax.swing.JMenuItem" binding="mit_Speichern">
+                <constraints/>
+                <properties>
+                  <text value="Speichern"/>
+                </properties>
+              </component>
+              <component id="fb33c" class="javax.swing.JMenuItem" binding="mit_SpeichernAls">
+                <constraints/>
+                <properties>
+                  <text value="Speichern als"/>
+                </properties>
+              </component>
+              <component id="188ea" class="javax.swing.JMenuItem" binding="mit_Schliesen">
+                <constraints/>
+                <properties>
+                  <text value="Schließen"/>
+                </properties>
+              </component>
+              <component id="f2561" class="javax.swing.JMenuItem">
+                <constraints/>
+                <properties>
+                  <text value="-------------"/>
+                </properties>
+              </component>
+              <component id="ec51c" class="javax.swing.JMenuItem" binding="mit_Beenden">
+                <constraints/>
+                <properties>
+                  <text value="Beenden"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="947fa" class="javax.swing.JMenu" binding="bearbeiten" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Bearbeiten"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6e8e6" class="javax.swing.JMenuItem" binding="mit_AendereMase">
+                <constraints/>
+                <properties>
+                  <text value="Maße ändern"/>
+                </properties>
+              </component>
+              <component id="763e7" class="javax.swing.JMenuItem">
+                <constraints/>
+                <properties>
+                  <text value="-------------"/>
+                </properties>
+              </component>
+              <component id="afbb6" class="javax.swing.JMenuItem" binding="mit_Schneller">
+                <constraints/>
+                <properties>
+                  <text value="Schneller"/>
+                </properties>
+              </component>
+              <component id="ff560" class="javax.swing.JMenuItem" binding="mit_Langsamer">
+                <constraints/>
+                <properties>
+                  <text value="Langsamer"/>
+                </properties>
+              </component>
+              <component id="dcb9" class="javax.swing.JMenuItem">
+                <constraints/>
+                <properties>
+                  <text value="-------------"/>
+                </properties>
+              </component>
+              <component id="8cbbb" class="javax.swing.JMenuItem" binding="mit_Starten">
+                <constraints/>
+                <properties>
+                  <text value="Starten"/>
+                </properties>
+              </component>
+              <component id="551a8" class="javax.swing.JMenuItem" binding="mit_Anhalten">
+                <constraints/>
+                <properties>
+                  <text value="Anhalten"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ff88d" class="javax.swing.JMenu" binding="hilfe" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Hilfe"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3b3d8" class="javax.swing.JMenuItem" binding="mit_Anleitung">
+                <constraints/>
+                <properties>
+                  <text value="Anleitung"/>
+                </properties>
+              </component>
+              <component id="d1c45" class="javax.swing.JMenuItem">
+                <constraints/>
+                <properties>
+                  <text value="-------------"/>
+                </properties>
+              </component>
+              <component id="c91af" class="javax.swing.JMenuItem" binding="mit_Ueber">
+                <constraints/>
+                <properties>
+                  <selected value="false"/>
+                  <text value="Über"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <nested-form id="90059" form-file="de/hft/ip1/GameOfLife/Client/PanelHolder.form" binding="panelHolder">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </nested-form>
+    </children>
+  </grid>
+</form>
